@@ -1,0 +1,1262 @@
+PT analysis on pure-ftpd
+succeed to open ../../AUDIT/audit/data_leakage/auditbeat.-1
+Successfully Connect to Redis db
+plt address range: 402930 -> 4032b8
+hook address: 
+0x410830
+0x406a40
+0x410990
+0x40a090
+0x4052d0
+tainting scope address: 410830 406a40 410990 40a090 4052d0 
+Geting all taint summaries
+Initing adj_map_forward
+Initing adj_map
+Initing taint summary in adj_map
+Max #taint summuries in the same context: 812
+#context: 10825
+process: tgid=4538, cmd=pure-ftpd
+thread: tgid=4538, pid=4538, name=pure-ftpd
+process: tgid=4540, cmd=pure-ftpd
+thread: tgid=4540, pid=4540, name=pure-ftpd
+process: tgid=4546, cmd=pure-ftpd
+thread: tgid=4546, pid=4546, name=pure-ftpd
+process: tgid=4547, cmd=pure-ftpd
+thread: tgid=4547, pid=4547, name=pure-ftpd
+process: tgid=4548, cmd=pure-ftpd
+thread: tgid=4548, pid=4548, name=pure-ftpd
+process: tgid=4549, cmd=pure-ftpd
+thread: tgid=4549, pid=4549, name=pure-ftpd
+process: tgid=4550, cmd=pure-ftpd
+thread: tgid=4550, pid=4550, name=pure-ftpd
+process: tgid=4551, cmd=pure-ftpd
+thread: tgid=4551, pid=4551, name=pure-ftpd
+process: tgid=4552, cmd=pure-ftpd
+thread: tgid=4552, pid=4552, name=pure-ftpd
+process: tgid=4553, cmd=pure-ftpd
+thread: tgid=4553, pid=4553, name=pure-ftpd
+process: tgid=4554, cmd=pure-ftpd
+thread: tgid=4554, pid=4554, name=pure-ftpd
+process: tgid=4555, cmd=pure-ftpd
+thread: tgid=4555, pid=4555, name=pure-ftpd
+process: tgid=4556, cmd=pure-ftpd
+thread: tgid=4556, pid=4556, name=pure-ftpd
+process: tgid=4557, cmd=pure-ftpd
+thread: tgid=4557, pid=4557, name=pure-ftpd
+process: tgid=4558, cmd=pure-ftpd
+thread: tgid=4558, pid=4558, name=pure-ftpd
+process: tgid=4559, cmd=pure-ftpd
+thread: tgid=4559, pid=4559, name=pure-ftpd
+process: tgid=4560, cmd=pure-ftpd
+thread: tgid=4560, pid=4560, name=pure-ftpd
+process: tgid=4561, cmd=pure-ftpd
+thread: tgid=4561, pid=4561, name=pure-ftpd
+process: tgid=4562, cmd=pure-ftpd
+thread: tgid=4562, pid=4562, name=pure-ftpd
+process: tgid=4563, cmd=pure-ftpd
+thread: tgid=4563, pid=4563, name=pure-ftpd
+process: tgid=4565, cmd=pure-ftpd
+thread: tgid=4565, pid=4565, name=pure-ftpd
+process: tgid=4566, cmd=pure-ftpd
+thread: tgid=4566, pid=4566, name=pure-ftpd
+process: tgid=4567, cmd=pure-ftpd
+thread: tgid=4567, pid=4567, name=pure-ftpd
+process: tgid=4568, cmd=pure-ftpd
+thread: tgid=4568, pid=4568, name=pure-ftpd
+process: tgid=4569, cmd=pure-ftpd
+thread: tgid=4569, pid=4569, name=pure-ftpd
+process: tgid=4570, cmd=pure-ftpd
+thread: tgid=4570, pid=4570, name=pure-ftpd
+process: tgid=4571, cmd=pure-ftpd
+thread: tgid=4571, pid=4571, name=pure-ftpd
+process: tgid=4572, cmd=pure-ftpd
+thread: tgid=4572, pid=4572, name=pure-ftpd
+process: tgid=4574, cmd=pure-ftpd
+thread: tgid=4574, pid=4574, name=pure-ftpd
+process: tgid=4575, cmd=pure-ftpd
+thread: tgid=4575, pid=4575, name=pure-ftpd
+process: tgid=4576, cmd=pure-ftpd
+thread: tgid=4576, pid=4576, name=pure-ftpd
+process: tgid=4577, cmd=pure-ftpd
+thread: tgid=4577, pid=4577, name=pure-ftpd
+process: tgid=4578, cmd=pure-ftpd
+thread: tgid=4578, pid=4578, name=pure-ftpd
+process: tgid=4579, cmd=pure-ftpd
+thread: tgid=4579, pid=4579, name=pure-ftpd
+process: tgid=4580, cmd=pure-ftpd
+thread: tgid=4580, pid=4580, name=pure-ftpd
+process: tgid=4581, cmd=pure-ftpd
+thread: tgid=4581, pid=4581, name=pure-ftpd
+process: tgid=4582, cmd=pure-ftpd
+thread: tgid=4582, pid=4582, name=pure-ftpd
+process: tgid=4583, cmd=pure-ftpd
+thread: tgid=4583, pid=4583, name=pure-ftpd
+process: tgid=4585, cmd=pure-ftpd
+thread: tgid=4585, pid=4585, name=pure-ftpd
+process: tgid=4586, cmd=pure-ftpd
+thread: tgid=4586, pid=4586, name=pure-ftpd
+process: tgid=4587, cmd=pure-ftpd
+thread: tgid=4587, pid=4587, name=pure-ftpd
+process: tgid=4588, cmd=pure-ftpd
+thread: tgid=4588, pid=4588, name=pure-ftpd
+process: tgid=4589, cmd=pure-ftpd
+thread: tgid=4589, pid=4589, name=pure-ftpd
+process: tgid=4590, cmd=pure-ftpd
+thread: tgid=4590, pid=4590, name=pure-ftpd
+process: tgid=4591, cmd=pure-ftpd
+thread: tgid=4591, pid=4591, name=pure-ftpd
+process: tgid=4592, cmd=pure-ftpd
+thread: tgid=4592, pid=4592, name=pure-ftpd
+process: tgid=4593, cmd=pure-ftpd
+thread: tgid=4593, pid=4593, name=pure-ftpd
+process: tgid=4594, cmd=pure-ftpd
+thread: tgid=4594, pid=4594, name=pure-ftpd
+process: tgid=4595, cmd=pure-ftpd
+thread: tgid=4595, pid=4595, name=pure-ftpd
+process: tgid=4596, cmd=pure-ftpd
+thread: tgid=4596, pid=4596, name=pure-ftpd
+process: tgid=4597, cmd=pure-ftpd
+thread: tgid=4597, pid=4597, name=pure-ftpd
+process: tgid=4598, cmd=pure-ftpd
+thread: tgid=4598, pid=4598, name=pure-ftpd
+process: tgid=4599, cmd=pure-ftpd
+thread: tgid=4599, pid=4599, name=pure-ftpd
+process: tgid=4600, cmd=pure-ftpd
+thread: tgid=4600, pid=4600, name=pure-ftpd
+process: tgid=4601, cmd=pure-ftpd
+thread: tgid=4601, pid=4601, name=pure-ftpd
+process: tgid=4602, cmd=pure-ftpd
+thread: tgid=4602, pid=4602, name=pure-ftpd
+process: tgid=4603, cmd=pure-ftpd
+thread: tgid=4603, pid=4603, name=pure-ftpd
+process: tgid=4604, cmd=pure-ftpd
+thread: tgid=4604, pid=4604, name=pure-ftpd
+process: tgid=4605, cmd=pure-ftpd
+thread: tgid=4605, pid=4605, name=pure-ftpd
+process: tgid=4606, cmd=pure-ftpd
+thread: tgid=4606, pid=4606, name=pure-ftpd
+process: tgid=4607, cmd=pure-ftpd
+thread: tgid=4607, pid=4607, name=pure-ftpd
+process: tgid=4608, cmd=pure-ftpd
+thread: tgid=4608, pid=4608, name=pure-ftpd
+process: tgid=4609, cmd=pure-ftpd
+thread: tgid=4609, pid=4609, name=pure-ftpd
+process: tgid=4610, cmd=pure-ftpd
+thread: tgid=4610, pid=4610, name=pure-ftpd
+process: tgid=4611, cmd=pure-ftpd
+thread: tgid=4611, pid=4611, name=pure-ftpd
+process: tgid=4612, cmd=pure-ftpd
+thread: tgid=4612, pid=4612, name=pure-ftpd
+process: tgid=4614, cmd=pure-ftpd
+thread: tgid=4614, pid=4614, name=pure-ftpd
+process: tgid=4615, cmd=pure-ftpd
+thread: tgid=4615, pid=4615, name=pure-ftpd
+process: tgid=4616, cmd=pure-ftpd
+thread: tgid=4616, pid=4616, name=pure-ftpd
+process: tgid=4617, cmd=pure-ftpd
+thread: tgid=4617, pid=4617, name=pure-ftpd
+process: tgid=4618, cmd=pure-ftpd
+thread: tgid=4618, pid=4618, name=pure-ftpd
+process: tgid=4619, cmd=pure-ftpd
+thread: tgid=4619, pid=4619, name=pure-ftpd
+process: tgid=4620, cmd=pure-ftpd
+thread: tgid=4620, pid=4620, name=pure-ftpd
+process: tgid=4621, cmd=pure-ftpd
+thread: tgid=4621, pid=4621, name=pure-ftpd
+process: tgid=4622, cmd=pure-ftpd
+thread: tgid=4622, pid=4622, name=pure-ftpd
+process: tgid=4623, cmd=pure-ftpd
+thread: tgid=4623, pid=4623, name=pure-ftpd
+process: tgid=4624, cmd=pure-ftpd
+thread: tgid=4624, pid=4624, name=pure-ftpd
+process: tgid=4625, cmd=pure-ftpd
+thread: tgid=4625, pid=4625, name=pure-ftpd
+process: tgid=4626, cmd=pure-ftpd
+thread: tgid=4626, pid=4626, name=pure-ftpd
+process: tgid=4627, cmd=pure-ftpd
+thread: tgid=4627, pid=4627, name=pure-ftpd
+process: tgid=4628, cmd=pure-ftpd
+thread: tgid=4628, pid=4628, name=pure-ftpd
+process: tgid=4629, cmd=pure-ftpd
+thread: tgid=4629, pid=4629, name=pure-ftpd
+process: tgid=4630, cmd=pure-ftpd
+thread: tgid=4630, pid=4630, name=pure-ftpd
+process: tgid=4631, cmd=pure-ftpd
+thread: tgid=4631, pid=4631, name=pure-ftpd
+process: tgid=4632, cmd=pure-ftpd
+thread: tgid=4632, pid=4632, name=pure-ftpd
+process: tgid=4633, cmd=pure-ftpd
+thread: tgid=4633, pid=4633, name=pure-ftpd
+process: tgid=4634, cmd=pure-ftpd
+thread: tgid=4634, pid=4634, name=pure-ftpd
+process: tgid=4635, cmd=pure-ftpd
+thread: tgid=4635, pid=4635, name=pure-ftpd
+process: tgid=4636, cmd=pure-ftpd
+thread: tgid=4636, pid=4636, name=pure-ftpd
+process: tgid=4637, cmd=pure-ftpd
+thread: tgid=4637, pid=4637, name=pure-ftpd
+process: tgid=4638, cmd=pure-ftpd
+thread: tgid=4638, pid=4638, name=pure-ftpd
+process: tgid=4639, cmd=pure-ftpd
+thread: tgid=4639, pid=4639, name=pure-ftpd
+process: tgid=4640, cmd=pure-ftpd
+thread: tgid=4640, pid=4640, name=pure-ftpd
+process: tgid=4641, cmd=pure-ftpd
+thread: tgid=4641, pid=4641, name=pure-ftpd
+process: tgid=4642, cmd=pure-ftpd
+thread: tgid=4642, pid=4642, name=pure-ftpd
+process: tgid=4643, cmd=pure-ftpd
+thread: tgid=4643, pid=4643, name=pure-ftpd
+process: tgid=4644, cmd=pure-ftpd
+thread: tgid=4644, pid=4644, name=pure-ftpd
+process: tgid=4645, cmd=pure-ftpd
+thread: tgid=4645, pid=4645, name=pure-ftpd
+process: tgid=4646, cmd=pure-ftpd
+thread: tgid=4646, pid=4646, name=pure-ftpd
+process: tgid=4647, cmd=pure-ftpd
+thread: tgid=4647, pid=4647, name=pure-ftpd
+process: tgid=4648, cmd=pure-ftpd
+thread: tgid=4648, pid=4648, name=pure-ftpd
+process: tgid=4649, cmd=pure-ftpd
+thread: tgid=4649, pid=4649, name=pure-ftpd
+process: tgid=4650, cmd=pure-ftpd
+thread: tgid=4650, pid=4650, name=pure-ftpd
+process: tgid=4651, cmd=pure-ftpd
+thread: tgid=4651, pid=4651, name=pure-ftpd
+process: tgid=4652, cmd=pure-ftpd
+thread: tgid=4652, pid=4652, name=pure-ftpd
+process: tgid=4653, cmd=pure-ftpd
+thread: tgid=4653, pid=4653, name=pure-ftpd
+process: tgid=4654, cmd=pure-ftpd
+thread: tgid=4654, pid=4654, name=pure-ftpd
+process: tgid=4655, cmd=pure-ftpd
+thread: tgid=4655, pid=4655, name=pure-ftpd
+process: tgid=4656, cmd=pure-ftpd
+thread: tgid=4656, pid=4656, name=pure-ftpd
+process: tgid=4657, cmd=pure-ftpd
+thread: tgid=4657, pid=4657, name=pure-ftpd
+process: tgid=4658, cmd=pure-ftpd
+thread: tgid=4658, pid=4658, name=pure-ftpd
+process: tgid=4659, cmd=pure-ftpd
+thread: tgid=4659, pid=4659, name=pure-ftpd
+process: tgid=4661, cmd=pure-ftpd
+thread: tgid=4661, pid=4661, name=pure-ftpd
+process: tgid=4662, cmd=pure-ftpd
+thread: tgid=4662, pid=4662, name=pure-ftpd
+process: tgid=4663, cmd=pure-ftpd
+thread: tgid=4663, pid=4663, name=pure-ftpd
+process: tgid=4664, cmd=pure-ftpd
+thread: tgid=4664, pid=4664, name=pure-ftpd
+process: tgid=4665, cmd=pure-ftpd
+thread: tgid=4665, pid=4665, name=pure-ftpd
+process: tgid=4666, cmd=pure-ftpd
+thread: tgid=4666, pid=4666, name=pure-ftpd
+process: tgid=4667, cmd=pure-ftpd
+thread: tgid=4667, pid=4667, name=pure-ftpd
+process: tgid=4668, cmd=pure-ftpd
+thread: tgid=4668, pid=4668, name=pure-ftpd
+process: tgid=4669, cmd=pure-ftpd
+thread: tgid=4669, pid=4669, name=pure-ftpd
+process: tgid=4670, cmd=pure-ftpd
+thread: tgid=4670, pid=4670, name=pure-ftpd
+process: tgid=4671, cmd=pure-ftpd
+thread: tgid=4671, pid=4671, name=pure-ftpd
+process: tgid=4672, cmd=pure-ftpd
+thread: tgid=4672, pid=4672, name=pure-ftpd
+process: tgid=4673, cmd=pure-ftpd
+thread: tgid=4673, pid=4673, name=pure-ftpd
+process: tgid=4674, cmd=pure-ftpd
+thread: tgid=4674, pid=4674, name=pure-ftpd
+process: tgid=4675, cmd=pure-ftpd
+thread: tgid=4675, pid=4675, name=pure-ftpd
+process: tgid=4676, cmd=pure-ftpd
+thread: tgid=4676, pid=4676, name=pure-ftpd
+process: tgid=4677, cmd=pure-ftpd
+thread: tgid=4677, pid=4677, name=pure-ftpd
+process: tgid=4678, cmd=pure-ftpd
+thread: tgid=4678, pid=4678, name=pure-ftpd
+process: tgid=4679, cmd=pure-ftpd
+thread: tgid=4679, pid=4679, name=pure-ftpd
+process: tgid=4680, cmd=pure-ftpd
+thread: tgid=4680, pid=4680, name=pure-ftpd
+process: tgid=4681, cmd=pure-ftpd
+thread: tgid=4681, pid=4681, name=pure-ftpd
+process: tgid=4682, cmd=pure-ftpd
+thread: tgid=4682, pid=4682, name=pure-ftpd
+process: tgid=4683, cmd=pure-ftpd
+thread: tgid=4683, pid=4683, name=pure-ftpd
+process: tgid=4684, cmd=pure-ftpd
+thread: tgid=4684, pid=4684, name=pure-ftpd
+process: tgid=4685, cmd=pure-ftpd
+thread: tgid=4685, pid=4685, name=pure-ftpd
+process: tgid=4686, cmd=pure-ftpd
+thread: tgid=4686, pid=4686, name=pure-ftpd
+process: tgid=4687, cmd=pure-ftpd
+thread: tgid=4687, pid=4687, name=pure-ftpd
+process: tgid=4688, cmd=pure-ftpd
+thread: tgid=4688, pid=4688, name=pure-ftpd
+process: tgid=4689, cmd=pure-ftpd
+thread: tgid=4689, pid=4689, name=pure-ftpd
+process: tgid=4690, cmd=pure-ftpd
+thread: tgid=4690, pid=4690, name=pure-ftpd
+process: tgid=4691, cmd=pure-ftpd
+thread: tgid=4691, pid=4691, name=pure-ftpd
+process: tgid=4692, cmd=pure-ftpd
+thread: tgid=4692, pid=4692, name=pure-ftpd
+process: tgid=4693, cmd=pure-ftpd
+thread: tgid=4693, pid=4693, name=pure-ftpd
+process: tgid=4694, cmd=pure-ftpd
+thread: tgid=4694, pid=4694, name=pure-ftpd
+process: tgid=4695, cmd=pure-ftpd
+thread: tgid=4695, pid=4695, name=pure-ftpd
+process: tgid=4696, cmd=pure-ftpd
+thread: tgid=4696, pid=4696, name=pure-ftpd
+process: tgid=4697, cmd=pure-ftpd
+thread: tgid=4697, pid=4697, name=pure-ftpd
+process: tgid=4698, cmd=pure-ftpd
+thread: tgid=4698, pid=4698, name=pure-ftpd
+process: tgid=4699, cmd=pure-ftpd
+thread: tgid=4699, pid=4699, name=pure-ftpd
+process: tgid=4700, cmd=pure-ftpd
+thread: tgid=4700, pid=4700, name=pure-ftpd
+process: tgid=4701, cmd=pure-ftpd
+thread: tgid=4701, pid=4701, name=pure-ftpd
+process: tgid=4702, cmd=pure-ftpd
+thread: tgid=4702, pid=4702, name=pure-ftpd
+process: tgid=4703, cmd=pure-ftpd
+thread: tgid=4703, pid=4703, name=pure-ftpd
+process: tgid=4704, cmd=pure-ftpd
+thread: tgid=4704, pid=4704, name=pure-ftpd
+process: tgid=4705, cmd=pure-ftpd
+thread: tgid=4705, pid=4705, name=pure-ftpd
+process: tgid=4706, cmd=pure-ftpd
+thread: tgid=4706, pid=4706, name=pure-ftpd
+process: tgid=4707, cmd=pure-ftpd
+thread: tgid=4707, pid=4707, name=pure-ftpd
+process: tgid=4708, cmd=pure-ftpd
+thread: tgid=4708, pid=4708, name=pure-ftpd
+process: tgid=4710, cmd=pure-ftpd
+thread: tgid=4710, pid=4710, name=pure-ftpd
+process: tgid=4711, cmd=pure-ftpd
+thread: tgid=4711, pid=4711, name=pure-ftpd
+process: tgid=4712, cmd=pure-ftpd
+thread: tgid=4712, pid=4712, name=pure-ftpd
+process: tgid=4713, cmd=pure-ftpd
+thread: tgid=4713, pid=4713, name=pure-ftpd
+process: tgid=4714, cmd=pure-ftpd
+thread: tgid=4714, pid=4714, name=pure-ftpd
+process: tgid=4715, cmd=pure-ftpd
+thread: tgid=4715, pid=4715, name=pure-ftpd
+process: tgid=4716, cmd=pure-ftpd
+thread: tgid=4716, pid=4716, name=pure-ftpd
+process: tgid=4717, cmd=pure-ftpd
+thread: tgid=4717, pid=4717, name=pure-ftpd
+process: tgid=4733, cmd=pure-ftpd
+thread: tgid=4733, pid=4733, name=pure-ftpd
+process: tgid=4734, cmd=pure-ftpd
+thread: tgid=4734, pid=4734, name=pure-ftpd
+process: tgid=4735, cmd=pure-ftpd
+thread: tgid=4735, pid=4735, name=pure-ftpd
+process: tgid=4736, cmd=pure-ftpd
+thread: tgid=4736, pid=4736, name=pure-ftpd
+process: tgid=4777, cmd=pure-ftpd
+thread: tgid=4777, pid=4777, name=pure-ftpd
+process: tgid=4778, cmd=pure-ftpd
+thread: tgid=4778, pid=4778, name=pure-ftpd
+process: tgid=4779, cmd=pure-ftpd
+thread: tgid=4779, pid=4779, name=pure-ftpd
+process: tgid=4780, cmd=pure-ftpd
+thread: tgid=4780, pid=4780, name=pure-ftpd
+process: tgid=4781, cmd=pure-ftpd
+thread: tgid=4781, pid=4781, name=pure-ftpd
+process: tgid=4782, cmd=pure-ftpd
+thread: tgid=4782, pid=4782, name=pure-ftpd
+process: tgid=4783, cmd=pure-ftpd
+thread: tgid=4783, pid=4783, name=pure-ftpd
+process: tgid=4784, cmd=pure-ftpd
+thread: tgid=4784, pid=4784, name=pure-ftpd
+process: tgid=4785, cmd=pure-ftpd
+thread: tgid=4785, pid=4785, name=pure-ftpd
+process: tgid=4786, cmd=pure-ftpd
+thread: tgid=4786, pid=4786, name=pure-ftpd
+process: tgid=4787, cmd=pure-ftpd
+thread: tgid=4787, pid=4787, name=pure-ftpd
+process: tgid=4788, cmd=pure-ftpd
+thread: tgid=4788, pid=4788, name=pure-ftpd
+process: tgid=4789, cmd=pure-ftpd
+thread: tgid=4789, pid=4789, name=pure-ftpd
+process: tgid=4790, cmd=pure-ftpd
+thread: tgid=4790, pid=4790, name=pure-ftpd
+process: tgid=4791, cmd=pure-ftpd
+thread: tgid=4791, pid=4791, name=pure-ftpd
+process: tgid=4792, cmd=pure-ftpd
+thread: tgid=4792, pid=4792, name=pure-ftpd
+process: tgid=4793, cmd=pure-ftpd
+thread: tgid=4793, pid=4793, name=pure-ftpd
+process: tgid=4794, cmd=pure-ftpd
+thread: tgid=4794, pid=4794, name=pure-ftpd
+process: tgid=4795, cmd=pure-ftpd
+thread: tgid=4795, pid=4795, name=pure-ftpd
+process: tgid=4796, cmd=pure-ftpd
+thread: tgid=4796, pid=4796, name=pure-ftpd
+process: tgid=4797, cmd=pure-ftpd
+thread: tgid=4797, pid=4797, name=pure-ftpd
+process: tgid=4798, cmd=pure-ftpd
+thread: tgid=4798, pid=4798, name=pure-ftpd
+process: tgid=4799, cmd=pure-ftpd
+thread: tgid=4799, pid=4799, name=pure-ftpd
+process: tgid=4800, cmd=pure-ftpd
+thread: tgid=4800, pid=4800, name=pure-ftpd
+process: tgid=4801, cmd=pure-ftpd
+thread: tgid=4801, pid=4801, name=pure-ftpd
+process: tgid=4802, cmd=pure-ftpd
+thread: tgid=4802, pid=4802, name=pure-ftpd
+process: tgid=4803, cmd=pure-ftpd
+thread: tgid=4803, pid=4803, name=pure-ftpd
+process: tgid=4804, cmd=pure-ftpd
+thread: tgid=4804, pid=4804, name=pure-ftpd
+process: tgid=4805, cmd=pure-ftpd
+thread: tgid=4805, pid=4805, name=pure-ftpd
+process: tgid=4806, cmd=pure-ftpd
+thread: tgid=4806, pid=4806, name=pure-ftpd
+process: tgid=4807, cmd=pure-ftpd
+thread: tgid=4807, pid=4807, name=pure-ftpd
+process: tgid=4808, cmd=pure-ftpd
+thread: tgid=4808, pid=4808, name=pure-ftpd
+process: tgid=4809, cmd=pure-ftpd
+thread: tgid=4809, pid=4809, name=pure-ftpd
+process: tgid=4810, cmd=pure-ftpd
+thread: tgid=4810, pid=4810, name=pure-ftpd
+#Instruction 2833740916
+#Packet 21402396
+Tree Construction Overhead 11.504 seconds
+PT Disassembly Overhead 0.460 seconds
+PT Taint/Traverse Overhead 2.386 seconds
+PT Taint Overhead 0.300 seconds
+Feedback taint to audit logs
+#Logs25562
+process: 4538
+#audit logs is 178
+#pt syscalls is 169
+
+process: 4540
+#audit logs is 2068
+#pt syscalls is 2068
+
+process: 4546
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4547
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4548
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4549
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4550
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4551
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4552
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4553
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4554
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4555
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4556
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4557
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4558
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4559
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4560
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4561
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4562
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4563
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4565
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4566
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4567
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4568
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4569
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4570
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4571
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4572
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4574
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4575
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4576
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4577
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4578
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4579
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4580
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4581
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4582
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4583
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4585
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4586
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4587
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4588
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4589
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4590
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4591
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4592
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4593
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4594
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4595
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4596
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4597
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4598
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4599
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4600
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4601
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4602
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4603
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4604
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4605
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4606
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4607
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4608
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4609
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4610
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4611
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4612
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4614
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4615
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4616
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4617
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4618
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4619
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4620
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4621
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4622
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4623
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4624
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4625
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4626
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4627
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4628
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4629
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4630
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4631
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4632
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4633
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4634
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4635
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4636
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4637
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4638
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4639
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4640
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4641
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4642
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4643
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4644
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4645
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4646
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4647
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4648
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4649
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4650
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4651
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4652
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4653
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4654
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4655
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4656
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4657
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4658
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4659
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4661
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4662
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4663
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4664
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4665
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4666
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4667
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4668
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4669
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4670
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4671
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4672
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4673
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4674
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4675
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4676
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4677
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4678
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4679
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4680
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4681
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4682
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4683
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4684
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4685
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4686
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4687
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4688
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4689
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4690
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4691
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4692
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4693
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4694
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4695
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4696
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4697
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4698
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4699
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4700
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4701
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4702
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4703
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4704
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4705
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4706
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4707
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4708
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4710
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4711
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4712
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4713
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4714
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4715
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4716
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4717
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4733
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4734
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4735
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4736
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4777
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4778
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4779
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4780
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4781
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4782
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4783
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4784
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4785
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4786
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4787
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4788
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4789
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4790
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4791
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4792
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4793
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4794
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4795
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4796
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4797
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4798
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4799
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4800
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4801
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4802
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4803
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4804
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4805
+#audit logs is 206
+#pt syscalls is 206
+
+process: 4806
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4807
+#audit logs is 185
+#pt syscalls is 185
+
+process: 4808
+#audit logs is 23
+#pt syscalls is 23
+
+process: 4809
+#audit logs is 185
+#pt syscalls is 185
+
+process: 4810
+#audit logs is 23
+#pt syscalls is 23
+
+PG Tag Overhead 0.437 seconds

@@ -1,0 +1,20 @@
+PT analysis on curl
+succeed to open .auditbeat.-1
+Successfully Connect to Redis db
+plt address range: 405230 -> 406490
+hook address: 
+Geting all taint summaries
+Initing adj_map_forward
+Initing adj_map
+Initing taint summary in adj_map
+process: tgid=4348, cmd=curl
+thread: tgid=4348, pid=4348, name=curl
+#Instruction 17516456
+#Packet 1882471
+Tree Construction Overhead 4.575 seconds
+PT Disassembly Overhead 0.043 seconds
+PT Taint/Traverse Overhead 1.044 seconds
+PT Taint Overhead 0.000 seconds
+Feedback taint to audit logs
+#Logs0
+PG Tag Overhead 0.000 seconds

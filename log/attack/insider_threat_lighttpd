@@ -1,0 +1,40 @@
+PT analysis on lighttpd
+succeed to open ../../AUDIT/audit/insider_threat/auditbeat.-1
+Successfully Connect to Redis db
+plt address range: 407ad0 -> 408440
+hook address: 
+0x411f90
+tainting scope address: 411f90 
+Geting all taint summaries
+Initing adj_map_forward
+Initing adj_map
+Initing taint summary in adj_map
+Max #taint summuries in the same context: 41
+#context: 61
+process: tgid=3025, cmd=lighttpd
+thread: tgid=3025, pid=3025, name=lighttpd
+process: tgid=3026, cmd=lighttpd
+thread: tgid=3026, pid=3026, name=lighttpd
+process: tgid=3027, cmd=lighttpd
+thread: tgid=3027, pid=3027, name=lighttpd
+#Instruction 5448715
+#Packet 499995
+Tree Construction Overhead 0.144 seconds
+PT Disassembly Overhead 0.026 seconds
+PT Taint/Traverse Overhead 0.556 seconds
+PT Taint Overhead 0.008 seconds
+Feedback taint to audit logs
+#Logs4800
+process: 3025
+#audit logs is 130
+#pt syscalls is 122
+
+process: 3026
+#audit logs is 6
+#pt syscalls is 6
+
+process: 3027
+#audit logs is 4664
+#pt syscalls is 4664
+
+PG Tag Overhead 0.086 seconds

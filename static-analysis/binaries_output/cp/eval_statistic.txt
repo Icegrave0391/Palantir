@@ -1,0 +1,13 @@
+Binary cp's size: 150.4(KB)
+Binary total nodes: 7399
+Binary total edges: 12584
+Binary after-trimming nodes: 149, percent: 2.0%
+Binary after-trimming edges: 220, percent: 1.7%
+Taint summary statistics (item number): 261
+Taint summary statistics (relation number): 990
+CFG Construction time: 4.4(sec)
+CFG Trimming time: 0.4(sec)
+CFG Total-handling time: 4.8(sec)
+Taint Analysis time: 4.1(sec)
+Peak memory usage: 335.5(MB)
+Redis storage size: 1.5(MB)

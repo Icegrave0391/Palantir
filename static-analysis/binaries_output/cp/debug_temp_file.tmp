@@ -1,0 +1,351 @@
+palantiri.analyses.binary_summary | BinarySummaryInterface settings: 
+∟ save_space_mode: False
+∟ loop_revisit_mode: False
+∟ max_symbol_ref_depth: 2
+∟ max_irrelevant_call_depth: 3
+∟ mem_rw_upperbound: 10
+∟ valueset_upperbound: 15
+palantiri.analyses.binary_summary | Start binary summary for function: sub_407aa0. Call stack: []
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407aa0, node: 0x407aa0
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407aa0, node: 0x407b23
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407aa0, node: 0x407b3f
+palantiri.analyses.binary_summary | Start binary summary for function: read. Call stack: ['sub_407aa0']
+palantiri.analyses.binary_summary | BinarySummary handling func: read, node: 0x404d90
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407aa0, node: 0x407b5e
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407aa0, node: 0x407bc0
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407aa0, node: 0x407bc6
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407aa0, node: 0x407bf8
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407aa0, node: 0x407c14
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407aa0, node: 0x407c1a
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407aa0, node: 0x407c23
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407aa0, node: 0x407c31
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407aa0, node: 0x407c36
+palantiri.analyses.binary_summary | Start binary summary for function: memcmp. Call stack: ['sub_407aa0']
+palantiri.analyses.binary_summary | BinarySummary handling func: memcmp, node: 0x404da0
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407aa0, node: 0x407c47
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407aa0, node: 0x407d58
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407aa0, node: 0x407e50
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407aa0, node: 0x407c61
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407aa0, node: 0x407c74
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407aa0, node: 0x407c7c
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407aa0, node: 0x407c85
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407aa0, node: 0x407ef2
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407aa0, node: 0x407d68
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407aa0, node: 0x407ee5
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407aa0, node: 0x407c90
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407aa0, node: 0x407cf8
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407aa0, node: 0x407d01
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407aa0, node: 0x407dc0
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407aa0, node: 0x407dcc
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407aa0, node: 0x407d71
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407aa0, node: 0x407d87
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407aa0, node: 0x407d0a
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407aa0, node: 0x407d24
+palantiri.analyses.binary_summary | Start binary summary for function: sub_4079d0. Call stack: ['sub_407aa0']
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_4079d0, node: 0x4079d0
+palantiri.analyses.binary_summary | Start binary summary for function: lseek. Call stack: ['sub_407aa0', 'sub_4079d0']
+palantiri.analyses.binary_summary | BinarySummary handling func: lseek, node: 0x404c90
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_4079d0, node: 0x4079f2
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_4079d0, node: 0x4079f7
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_4079d0, node: 0x407a10
+palantiri.analyses.binary_summary | Start binary summary for function: sub_407380. Call stack: ['sub_407aa0', 'sub_4079d0']
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407380, node: 0x407380
+palantiri.analyses.binary_summary | Start binary summary for function: fallocate. Call stack: ['sub_407aa0', 'sub_4079d0', 'sub_407380']
+palantiri.analyses.binary_summary | BinarySummary handling func: fallocate, node: 0x404db0
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407380, node: 0x407392
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407380, node: 0x4073a0
+palantiri.analyses.binary_summary | Start binary summary for function: __errno_location. Call stack: ['sub_407aa0', 'sub_4079d0', 'sub_407380']
+palantiri.analyses.binary_summary | BinarySummary handling func: __errno_location, node: 0x4049c0
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407380, node: 0x4073a5
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407380, node: 0x4073ac
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407380, node: 0x407399
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407380, node: 0x4073b1
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_4079d0, node: 0x407a21
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_4079d0, node: 0x4079fb
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_4079d0, node: 0x407a25
+palantiri.analyses.binary_summary | Start binary summary for function: sub_412480. Call stack: ['sub_407aa0', 'sub_4079d0']
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_412480, node: 0x412480
+palantiri.singletons.adaptors.calldepth_adaptor | Calldepth Adaptor dismiss sub_412480 -> sub_412350 (max current irrelevant depth 4 > threshold 3)
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_4079d0, node: 0x407a32
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_4079d0, node: 0x407a48
+palantiri.singletons.adaptors.calldepth_adaptor | Calldepth Adaptor dismiss sub_4079d0 -> sub_412480 (max current irrelevant depth 4 > threshold 3)
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_4079d0, node: 0x407a55
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_4079d0, node: 0x407a64
+palantiri.analyses.binary_summary | Start binary summary for function: dcgettext. Call stack: ['sub_407aa0', 'sub_4079d0']
+palantiri.analyses.binary_summary | BinarySummary handling func: dcgettext, node: 0x404b80
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_4079d0, node: 0x407a6b
+palantiri.analyses.binary_summary | Start binary summary for function: __errno_location. Call stack: ['sub_407aa0', 'sub_4079d0']
+palantiri.analyses.binary_summary | BinarySummary handling func: __errno_location, node: 0x4049c0
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_4079d0, node: 0x407a73
+palantiri.analyses.binary_summary | Start binary summary for function: error. Call stack: ['sub_407aa0', 'sub_4079d0']
+palantiri.analyses.binary_summary | BinarySummary handling func: error, node: 0x405080
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_4079d0, node: 0x407a84
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407aa0, node: 0x407d3f
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407aa0, node: 0x407c9c
+palantiri.analyses.binary_summary | Start binary summary for function: sub_40f560. Call stack: ['sub_407aa0']
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_40f560, node: 0x40f560
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_40f560, node: 0x40f573
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_40f560, node: 0x40f598
+palantiri.analyses.binary_summary | Start binary summary for function: sub_412a10. Call stack: ['sub_407aa0', 'sub_40f560']
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_412a10, node: 0x412a10
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_412a10, node: 0x412a30
+palantiri.analyses.binary_summary | Start binary summary for function: write. Call stack: ['sub_407aa0', 'sub_40f560', 'sub_412a10']
+palantiri.analyses.binary_summary | BinarySummary handling func: write, node: 0x404ad0
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_412a10, node: 0x412a3e
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_412a10, node: 0x412a46
+palantiri.analyses.binary_summary | Start binary summary for function: __errno_location. Call stack: ['sub_407aa0', 'sub_40f560', 'sub_412a10']
+palantiri.analyses.binary_summary | BinarySummary handling func: __errno_location, node: 0x4049c0
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_412a10, node: 0x412a4b
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_412a10, node: 0x412a52
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_412a10, node: 0x412a57
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_412a10, node: 0x412a60
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_412a10, node: 0x412a70
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_40f560, node: 0x40f5a6
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_40f560, node: 0x40f588
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_40f560, node: 0x40f58d
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_40f560, node: 0x40f5c0
+palantiri.analyses.binary_summary | Start binary summary for function: __errno_location. Call stack: ['sub_407aa0', 'sub_40f560']
+palantiri.analyses.binary_summary | BinarySummary handling func: __errno_location, node: 0x4049c0
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_40f560, node: 0x40f5c5
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_40f560, node: 0x40f5d9
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_40f560, node: 0x40f5ac
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407aa0, node: 0x407cb0
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407aa0, node: 0x407cc4
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407aa0, node: 0x407cd0
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407aa0, node: 0x407cd9
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407aa0, node: 0x407ce2
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407aa0, node: 0x407de8
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407aa0, node: 0x407ded
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407aa0, node: 0x407df0
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407aa0, node: 0x407dd0
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407aa0, node: 0x407d93
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407aa0, node: 0x407e08
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407aa0, node: 0x407d9c
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407aa0, node: 0x407da0
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407aa0, node: 0x407db8
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407aa0, node: 0x407b68
+palantiri.analyses.binary_summary | Start binary summary for function: __errno_location. Call stack: ['sub_407aa0']
+palantiri.analyses.binary_summary | BinarySummary handling func: __errno_location, node: 0x4049c0
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407aa0, node: 0x407b6d
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407aa0, node: 0x407eae
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407aa0, node: 0x407d4d
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407aa0, node: 0x407e5d
+palantiri.analyses.binary_summary | Start binary summary for function: sub_412480. Call stack: ['sub_407aa0']
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_412480, node: 0x412480
+palantiri.analyses.binary_summary | Start binary summary for function: sub_412350. Call stack: ['sub_407aa0']
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_412350, node: 0x412350
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_412350, node: 0x412371
+palantiri.analyses.binary_summary | Start binary summary for function: sub_411e00. Call stack: ['sub_407aa0', 'sub_412350']
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_411e00, node: 0x411e00
+palantiri.analyses.binary_summary | Start binary summary for function: __errno_location. Call stack: ['sub_407aa0', 'sub_412350', 'sub_411e00']
+palantiri.analyses.binary_summary | BinarySummary handling func: __errno_location, node: 0x4049c0
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_411e00, node: 0x411e1f
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_411e00, node: 0x411e38
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_411e00, node: 0x411e40
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_411e00, node: 0x411e4c
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_411e00, node: 0x411e67
+palantiri.singletons.adaptors.calldepth_adaptor | Calldepth Adaptor dismiss sub_411e00 -> sub_414c00 (max current irrelevant depth 4 > threshold 3)
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_411e00, node: 0x411e6f
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_411e00, node: 0x411f78
+palantiri.singletons.adaptors.calldepth_adaptor | Calldepth Adaptor dismiss sub_411e00 -> sub_414c00 (max current irrelevant depth 4 > threshold 3)
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_411e00, node: 0x411f7f
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_411e00, node: 0x411e79
+palantiri.analyses.binary_summary | Start binary summary for function: memset. Call stack: ['sub_407aa0', 'sub_412350', 'sub_411e00']
+palantiri.analyses.binary_summary | BinarySummary handling func: memset, node: 0x404cc0
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_411e00, node: 0x411e9a
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_411e00, node: 0x411ea1
+palantiri.singletons.adaptors.calldepth_adaptor | Calldepth Adaptor dismiss sub_411e00 -> sub_410bb0 (max current irrelevant depth 4 > threshold 3)
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_411e00, node: 0x411ee5
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_411e00, node: 0x411ef3
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_411e00, node: 0x411f06
+palantiri.analyses.binary_summary | Start binary summary for function: free. Call stack: ['sub_407aa0', 'sub_412350', 'sub_411e00']
+palantiri.analyses.binary_summary | BinarySummary handling func: free, node: 0x404940
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_411e00, node: 0x411f13
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_411e00, node: 0x411f18
+palantiri.singletons.adaptors.calldepth_adaptor | Calldepth Adaptor dismiss sub_411e00 -> sub_414ba0 (max current irrelevant depth 4 > threshold 3)
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_411e00, node: 0x411f25
+palantiri.singletons.adaptors.calldepth_adaptor | Calldepth Adaptor dismiss sub_411e00 -> sub_410bb0 (max current irrelevant depth 4 > threshold 3)
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_411e00, node: 0x411f54
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_411e00, node: 0x411f58
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_411e00, node: 0x411f99
+palantiri.singletons.adaptors.calldepth_adaptor | Calldepth Adaptor dismiss sub_411e00 -> sub_414e10 (max current irrelevant depth 4 > threshold 3)
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_411e00, node: 0x40528e
+palantiri.analyses.binary_summary | Start binary summary for function: abort. Call stack: ['sub_407aa0', 'sub_412350', 'sub_411e00']
+palantiri.analyses.binary_summary | BinarySummary handling func: abort, node: 0x4049b0
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_412350, node: 0x4123c7
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_412350, node: 0x4123dc
+palantiri.analyses.binary_summary | Start binary summary for function: __stack_chk_fail. Call stack: ['sub_407aa0', 'sub_412350']
+palantiri.analyses.binary_summary | BinarySummary handling func: __stack_chk_fail, node: 0x404be0
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_412350, node: 0x4123d7
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_412350, node: 0x405298
+palantiri.analyses.binary_summary | Start binary summary for function: abort. Call stack: ['sub_407aa0', 'sub_412350']
+palantiri.analyses.binary_summary | BinarySummary handling func: abort, node: 0x4049b0
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407aa0, node: 0x407e6f
+palantiri.analyses.binary_summary | Start binary summary for function: dcgettext. Call stack: ['sub_407aa0']
+palantiri.analyses.binary_summary | BinarySummary handling func: dcgettext, node: 0x404b80
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407aa0, node: 0x407e85
+palantiri.analyses.binary_summary | Start binary summary for function: __errno_location. Call stack: ['sub_407aa0']
+palantiri.analyses.binary_summary | BinarySummary handling func: __errno_location, node: 0x4049c0
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407aa0, node: 0x407e8d
+palantiri.analyses.binary_summary | Start binary summary for function: error. Call stack: ['sub_407aa0']
+palantiri.analyses.binary_summary | BinarySummary handling func: error, node: 0x405080
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407aa0, node: 0x407e9e
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407aa0, node: 0x407e10
+palantiri.analyses.binary_summary | Start binary summary for function: sub_412480. Call stack: ['sub_407aa0']
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_412480, node: 0x412480
+palantiri.analyses.binary_summary | Start binary summary for function: sub_412350. Call stack: ['sub_407aa0']
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_412350, node: 0x412350
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_412350, node: 0x412371
+palantiri.analyses.binary_summary | Start binary summary for function: sub_411e00. Call stack: ['sub_407aa0', 'sub_412350']
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_411e00, node: 0x411e00
+palantiri.analyses.binary_summary | Start binary summary for function: __errno_location. Call stack: ['sub_407aa0', 'sub_412350', 'sub_411e00']
+palantiri.analyses.binary_summary | BinarySummary handling func: __errno_location, node: 0x4049c0
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_411e00, node: 0x411e1f
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_411e00, node: 0x411e38
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_411e00, node: 0x411e40
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_411e00, node: 0x411e4c
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_411e00, node: 0x411e67
+palantiri.singletons.adaptors.calldepth_adaptor | Calldepth Adaptor dismiss sub_411e00 -> sub_414c00 (max current irrelevant depth 4 > threshold 3)
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_411e00, node: 0x411e6f
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_411e00, node: 0x411f78
+palantiri.singletons.adaptors.calldepth_adaptor | Calldepth Adaptor dismiss sub_411e00 -> sub_414c00 (max current irrelevant depth 4 > threshold 3)
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_411e00, node: 0x411f7f
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_411e00, node: 0x411e79
+palantiri.analyses.binary_summary | Start binary summary for function: memset. Call stack: ['sub_407aa0', 'sub_412350', 'sub_411e00']
+palantiri.analyses.binary_summary | BinarySummary handling func: memset, node: 0x404cc0
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_411e00, node: 0x411e9a
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_411e00, node: 0x411ea1
+palantiri.singletons.adaptors.calldepth_adaptor | Calldepth Adaptor dismiss sub_411e00 -> sub_410bb0 (max current irrelevant depth 4 > threshold 3)
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_411e00, node: 0x411ee5
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_411e00, node: 0x411ef3
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_411e00, node: 0x411f06
+palantiri.analyses.binary_summary | Start binary summary for function: free. Call stack: ['sub_407aa0', 'sub_412350', 'sub_411e00']
+palantiri.analyses.binary_summary | BinarySummary handling func: free, node: 0x404940
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_411e00, node: 0x411f13
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_411e00, node: 0x411f18
+palantiri.singletons.adaptors.calldepth_adaptor | Calldepth Adaptor dismiss sub_411e00 -> sub_414ba0 (max current irrelevant depth 4 > threshold 3)
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_411e00, node: 0x411f25
+palantiri.singletons.adaptors.calldepth_adaptor | Calldepth Adaptor dismiss sub_411e00 -> sub_410bb0 (max current irrelevant depth 4 > threshold 3)
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_411e00, node: 0x411f54
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_411e00, node: 0x411f58
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_411e00, node: 0x411f99
+palantiri.singletons.adaptors.calldepth_adaptor | Calldepth Adaptor dismiss sub_411e00 -> sub_414e10 (max current irrelevant depth 4 > threshold 3)
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_411e00, node: 0x40528e
+palantiri.analyses.binary_summary | Start binary summary for function: abort. Call stack: ['sub_407aa0', 'sub_412350', 'sub_411e00']
+palantiri.analyses.binary_summary | BinarySummary handling func: abort, node: 0x4049b0
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_412350, node: 0x4123c7
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_412350, node: 0x4123dc
+palantiri.analyses.binary_summary | Start binary summary for function: __stack_chk_fail. Call stack: ['sub_407aa0', 'sub_412350']
+palantiri.analyses.binary_summary | BinarySummary handling func: __stack_chk_fail, node: 0x404be0
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_412350, node: 0x4123d7
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_412350, node: 0x405298
+palantiri.analyses.binary_summary | Start binary summary for function: abort. Call stack: ['sub_407aa0', 'sub_412350']
+palantiri.analyses.binary_summary | BinarySummary handling func: abort, node: 0x4049b0
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407aa0, node: 0x407e22
+palantiri.analyses.binary_summary | Start binary summary for function: dcgettext. Call stack: ['sub_407aa0']
+palantiri.analyses.binary_summary | BinarySummary handling func: dcgettext, node: 0x404b80
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407aa0, node: 0x407e38
+palantiri.analyses.binary_summary | Start binary summary for function: error. Call stack: ['sub_407aa0']
+palantiri.analyses.binary_summary | BinarySummary handling func: error, node: 0x405080
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407aa0, node: 0x407e49
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407aa0, node: 0x407b75
+palantiri.analyses.binary_summary | Start binary summary for function: sub_412480. Call stack: ['sub_407aa0']
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_412480, node: 0x412480
+palantiri.analyses.binary_summary | Start binary summary for function: sub_412350. Call stack: ['sub_407aa0']
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_412350, node: 0x412350
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_412350, node: 0x412371
+palantiri.analyses.binary_summary | Start binary summary for function: sub_411e00. Call stack: ['sub_407aa0', 'sub_412350']
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_411e00, node: 0x411e00
+palantiri.analyses.binary_summary | Start binary summary for function: __errno_location. Call stack: ['sub_407aa0', 'sub_412350', 'sub_411e00']
+palantiri.analyses.binary_summary | BinarySummary handling func: __errno_location, node: 0x4049c0
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_411e00, node: 0x411e1f
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_411e00, node: 0x411e38
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_411e00, node: 0x411e40
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_411e00, node: 0x411e4c
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_411e00, node: 0x411e67
+palantiri.singletons.adaptors.calldepth_adaptor | Calldepth Adaptor dismiss sub_411e00 -> sub_414c00 (max current irrelevant depth 4 > threshold 3)
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_411e00, node: 0x411e6f
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_411e00, node: 0x411f78
+palantiri.singletons.adaptors.calldepth_adaptor | Calldepth Adaptor dismiss sub_411e00 -> sub_414c00 (max current irrelevant depth 4 > threshold 3)
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_411e00, node: 0x411f7f
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_411e00, node: 0x411e79
+palantiri.analyses.binary_summary | Start binary summary for function: memset. Call stack: ['sub_407aa0', 'sub_412350', 'sub_411e00']
+palantiri.analyses.binary_summary | BinarySummary handling func: memset, node: 0x404cc0
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_411e00, node: 0x411e9a
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_411e00, node: 0x411ea1
+palantiri.singletons.adaptors.calldepth_adaptor | Calldepth Adaptor dismiss sub_411e00 -> sub_410bb0 (max current irrelevant depth 4 > threshold 3)
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_411e00, node: 0x411ee5
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_411e00, node: 0x411ef3
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_411e00, node: 0x411f06
+palantiri.analyses.binary_summary | Start binary summary for function: free. Call stack: ['sub_407aa0', 'sub_412350', 'sub_411e00']
+palantiri.analyses.binary_summary | BinarySummary handling func: free, node: 0x404940
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_411e00, node: 0x411f13
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_411e00, node: 0x411f18
+palantiri.singletons.adaptors.calldepth_adaptor | Calldepth Adaptor dismiss sub_411e00 -> sub_414ba0 (max current irrelevant depth 4 > threshold 3)
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_411e00, node: 0x411f25
+palantiri.singletons.adaptors.calldepth_adaptor | Calldepth Adaptor dismiss sub_411e00 -> sub_410bb0 (max current irrelevant depth 4 > threshold 3)
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_411e00, node: 0x411f54
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_411e00, node: 0x411f58
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_411e00, node: 0x411f99
+palantiri.singletons.adaptors.calldepth_adaptor | Calldepth Adaptor dismiss sub_411e00 -> sub_414e10 (max current irrelevant depth 4 > threshold 3)
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_411e00, node: 0x40528e
+palantiri.analyses.binary_summary | Start binary summary for function: abort. Call stack: ['sub_407aa0', 'sub_412350', 'sub_411e00']
+palantiri.analyses.binary_summary | BinarySummary handling func: abort, node: 0x4049b0
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_412350, node: 0x4123c7
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_412350, node: 0x4123dc
+palantiri.analyses.binary_summary | Start binary summary for function: __stack_chk_fail. Call stack: ['sub_407aa0', 'sub_412350']
+palantiri.analyses.binary_summary | BinarySummary handling func: __stack_chk_fail, node: 0x404be0
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_412350, node: 0x4123d7
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_412350, node: 0x405298
+palantiri.analyses.binary_summary | Start binary summary for function: abort. Call stack: ['sub_407aa0', 'sub_412350']
+palantiri.analyses.binary_summary | BinarySummary handling func: abort, node: 0x4049b0
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407aa0, node: 0x407b87
+palantiri.analyses.binary_summary | Start binary summary for function: dcgettext. Call stack: ['sub_407aa0']
+palantiri.analyses.binary_summary | BinarySummary handling func: dcgettext, node: 0x404b80
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407aa0, node: 0x407b9d
+palantiri.analyses.binary_summary | Start binary summary for function: error. Call stack: ['sub_407aa0']
+palantiri.analyses.binary_summary | BinarySummary handling func: error, node: 0x405080
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407aa0, node: 0x407edd
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407aa0, node: 0x407eb4
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407aa0, node: 0x407eb9
+palantiri.analyses.binary_summary | Start binary summary for function: sub_4079d0. Call stack: []
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_4079d0, node: 0x4079d0
+palantiri.analyses.binary_summary | Start binary summary for function: lseek. Call stack: ['sub_4079d0']
+palantiri.analyses.binary_summary | BinarySummary handling func: lseek, node: 0x404c90
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_4079d0, node: 0x4079f2
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_4079d0, node: 0x4079f7
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_4079d0, node: 0x407a10
+palantiri.analyses.binary_summary | Start binary summary for function: sub_407380. Call stack: ['sub_4079d0']
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407380, node: 0x407380
+palantiri.analyses.binary_summary | Start binary summary for function: fallocate. Call stack: ['sub_4079d0', 'sub_407380']
+palantiri.analyses.binary_summary | BinarySummary handling func: fallocate, node: 0x404db0
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407380, node: 0x407392
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407380, node: 0x4073a0
+palantiri.analyses.binary_summary | Start binary summary for function: __errno_location. Call stack: ['sub_4079d0', 'sub_407380']
+palantiri.analyses.binary_summary | BinarySummary handling func: __errno_location, node: 0x4049c0
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407380, node: 0x4073a5
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407380, node: 0x4073ac
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407380, node: 0x407399
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407380, node: 0x4073b1
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_4079d0, node: 0x407a21
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_4079d0, node: 0x4079fb
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_4079d0, node: 0x407a25
+palantiri.analyses.binary_summary | Start binary summary for function: sub_412480. Call stack: ['sub_4079d0']
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_412480, node: 0x412480
+palantiri.singletons.adaptors.calldepth_adaptor | Calldepth Adaptor dismiss sub_412480 -> sub_412350 (max current irrelevant depth 4 > threshold 3)
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_4079d0, node: 0x407a32
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_4079d0, node: 0x407a48
+palantiri.singletons.adaptors.calldepth_adaptor | Calldepth Adaptor dismiss sub_4079d0 -> sub_412480 (max current irrelevant depth 4 > threshold 3)
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_4079d0, node: 0x407a55
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_4079d0, node: 0x407a64
+palantiri.analyses.binary_summary | Start binary summary for function: dcgettext. Call stack: ['sub_4079d0']
+palantiri.analyses.binary_summary | BinarySummary handling func: dcgettext, node: 0x404b80
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_4079d0, node: 0x407a6b
+palantiri.analyses.binary_summary | Start binary summary for function: __errno_location. Call stack: ['sub_4079d0']
+palantiri.analyses.binary_summary | BinarySummary handling func: __errno_location, node: 0x4049c0
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_4079d0, node: 0x407a73
+palantiri.analyses.binary_summary | Start binary summary for function: error. Call stack: ['sub_4079d0']
+palantiri.analyses.binary_summary | BinarySummary handling func: error, node: 0x405080
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_4079d0, node: 0x407a84
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407aa0, node: 0x407ea3
+palantiri.analyses.binary_summary | BinarySummary handling func: sub_407aa0, node: 0x407bae

@@ -1,0 +1,41 @@
+PT analysis on nginx
+succeed to open ../../AUDIT/audit/watering_hole/auditbeat.-1
+Successfully Connect to Redis db
+plt address range: 40a9e0 -> 40b290
+hook address: 411eda 411ed1 411ec6 411e47 411e7e 411e27 42ef75 42ef85 42ef6d 42ef5f 40e42d 40e428 40e41f 40e42f 40e410 40e407 40e40c 40e402 40e3f8 40e3ee 40e3e9 40e3e0 40e3f0 40e3c6 40e3bd 40e3c2 40e3b8 40e3ae 
+0x4102b9
+0x4163c3
+tainting scope address: 4102b9 4163c3 
+Geting all taint summaries
+Initing adj_map_forward
+Initing adj_map
+Initing taint summary in adj_map
+Max #taint summuries in the same context: 334
+#context: 5325
+process: tgid=13538, cmd=nginx
+thread: tgid=13538, pid=13538, name=nginx
+process: tgid=13543, cmd=nginx
+thread: tgid=13543, pid=13543, name=nginx
+process: tgid=13544, cmd=nginx
+thread: tgid=13544, pid=13544, name=nginx
+#Instruction 5160695
+#Packet 401708
+Tree Construction Overhead 4.007 seconds
+PT Disassembly Overhead 0.023 seconds
+PT Taint/Traverse Overhead 2.841 seconds
+PT Taint Overhead 0.026 seconds
+Feedback taint to audit logs
+#Logs1830
+process: 13538
+#audit logs is 235
+#pt syscalls is 228
+
+process: 13543
+#audit logs is 22
+#pt syscalls is 22
+
+process: 13544
+#audit logs is 1573
+#pt syscalls is 1576
+
+PG Tag Overhead 0.034 seconds

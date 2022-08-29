@@ -1,0 +1,11 @@
+PT analysis on cp
+succeed to open .auditbeat.-1
+Successfully Connect to Redis db
+plt address range: 402290 -> 4029f0
+hook address: 4155d4 4155ac 4156aa 4156af 41566c 415688 415659 41565e 415671 415614 415640 41560b 4155d6 415494 41549b 4154a0 41548d 415482 41545f 4158d2 4158ca 4158a7 415886 415869 415583 41555e 415421 415419 415401 
+Geting all taint summaries
+Initing adj_map_forward
+Initing adj_map
+Initing taint summary in adj_map
+process: tgid=2821, cmd=cp
+thread: tgid=2821, pid=2821, name=cp

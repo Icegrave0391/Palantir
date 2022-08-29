@@ -1,0 +1,11 @@
+angr==9.2.1
+angr.egg==info
+archinfo==9.2.1
+archinfo.egg==info
+capstone==4.0.2
+claripy==9.2.1
+claripy.egg==info
+cle==9.2.1
+cle.egg==info
+pyvex==9.2.1
+pyvex.egg==info

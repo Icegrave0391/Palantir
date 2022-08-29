@@ -1,0 +1,17 @@
+PT analysis on nginx
+succeed to open .auditbeat.-1
+Successfully Connect to Redis db
+plt address range: 40a9e0 -> 40b290
+hook address: 411eda 411ed1 411ec6 411e47 411e7e 411e27 42ef75 42ef85 42ef6d 42ef5f 40e42d 40e428 40e41f 40e42f 40e410 40e407 40e40c 40e402 40e3f8 40e3ee 40e3e9 40e3e0 40e3f0 40e3c6 40e3bd 40e3c2 40e3b8 40e3ae 
+Geting all taint summaries
+Initing adj_map_forward
+Initing adj_map
+Initing taint summary in adj_map
+process: tgid=13538, cmd=nginx
+thread: tgid=13538, pid=13538, name=nginx
+process: tgid=13543, cmd=nginx
+thread: tgid=13543, pid=13543, name=nginx
+process: tgid=13544, cmd=nginx
+thread: tgid=13544, pid=13544, name=nginx
+37 SYSCALL_IN: 40b090 17 pread
+37 SYSCALL_IN: 40b090 17 pread

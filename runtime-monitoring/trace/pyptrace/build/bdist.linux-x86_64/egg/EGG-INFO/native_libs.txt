@@ -1,0 +1,2 @@
+pyptrace/ext/os/_os.cpython-39-x86_64-linux-gnu.so
+pyptrace/ext/os/_os.cpython-35m-x86_64-linux-gnu.so

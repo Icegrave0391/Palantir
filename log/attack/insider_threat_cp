@@ -1,0 +1,28 @@
+PT analysis on cp
+succeed to open ../../AUDIT/audit/insider_threat/auditbeat.-1
+Successfully Connect to Redis db
+plt address range: 402290 -> 4029f0
+hook address: 4155d4 4155ac 4156aa 4156af 41566c 415688 415659 41565e 415671 415614 415640 41560b 4155d6 415494 41549b 4154a0 41548d 415482 41545f 4158d2 4158ca 4158a7 415886 415869 415583 41555e 415421 415419 415401 
+0x4054e6
+tainting scope address: 4054e6 
+Geting all taint summaries
+Initing adj_map_forward
+Initing adj_map
+Initing taint summary in adj_map
+Max #taint summuries in the same context: 110
+#context: 70
+process: tgid=2821, cmd=cp
+thread: tgid=2821, pid=2821, name=cp
+#Instruction 1048907
+#Packet 134161
+Tree Construction Overhead 0.136 seconds
+PT Disassembly Overhead 0.009 seconds
+PT Taint/Traverse Overhead 0.194 seconds
+PT Taint Overhead 0.006 seconds
+Feedback taint to audit logs
+#Logs1814
+process: 2821
+#audit logs is 1814
+#pt syscalls is 1807
+
+PG Tag Overhead 0.035 seconds

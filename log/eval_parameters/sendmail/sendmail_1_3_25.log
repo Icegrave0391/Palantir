@@ -1,0 +1,397 @@
+PT analysis on sendmail
+succeed to open .auditbeat.-1
+Successfully Connect to Redis db
+plt address range: 404570 -> 4055b0
+hook address: 479488 4793e2 47947e 479460 4793c7 479467 479456 4793bf 479447 4793ab 47943f 479393 4793a2 479353 479430 479386 47934a 479366 4794a1 479340 479422 47940f 4792de 479497 479338 479418 479407 4792f0 4792d5 47931a 4793f8 4792c8 479308 4792a5 479290 479175 479270 479167 479260 479191 479150 479256 47917a 47914c 479247 479178 479138 47923f 479124 479133 4790e4 479230 479117 4790db 4790f7 4790d1 479220 47921a 4791bf 4790c9 479210 4791b7 4791f0 479198 4790ab 4791a8 4791e3 479099 4791c0 479080 
+Geting all taint summaries
+Initing adj_map_forward
+Initing adj_map
+Initing taint summary in adj_map
+process: tgid=3625, cmd=sendmail
+thread: tgid=3625, pid=3625, name=sendmail
+process: tgid=3626, cmd=sendmail
+thread: tgid=3626, pid=3626, name=sendmail
+process: tgid=3627, cmd=sendmail
+thread: tgid=3627, pid=3627, name=sendmail
+process: tgid=3628, cmd=sendmail
+thread: tgid=3628, pid=3628, name=sendmail
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+process: tgid=3629, cmd=sendmail
+thread: tgid=3629, pid=3629, name=sendmail
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+process: tgid=3630, cmd=sendmail
+thread: tgid=3630, pid=3630, name=sendmail
+process: tgid=3631, cmd=sendmail
+thread: tgid=3631, pid=3631, name=sendmail
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+process: tgid=3632, cmd=sendmail
+thread: tgid=3632, pid=3632, name=sendmail
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+process: tgid=3633, cmd=sendmail
+thread: tgid=3633, pid=3633, name=sendmail
+process: tgid=3634, cmd=sendmail
+thread: tgid=3634, pid=3634, name=sendmail
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+process: tgid=3635, cmd=sendmail
+thread: tgid=3635, pid=3635, name=sendmail
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+process: tgid=3636, cmd=sendmail
+thread: tgid=3636, pid=3636, name=sendmail
+process: tgid=3639, cmd=sendmail
+thread: tgid=3639, pid=3639, name=sendmail
+505 SYSCALL_IN: 405170 0 read
+505 SYSCALL_IN: 405170 0 read
+505 SYSCALL_IN: 405170 0 read
+505 SYSCALL_IN: 405170 0 read
+505 SYSCALL_IN: 405170 0 read
+505 SYSCALL_IN: 405170 0 read
+process: tgid=3640, cmd=sendmail
+thread: tgid=3640, pid=3640, name=sendmail
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+process: tgid=3641, cmd=sendmail
+thread: tgid=3641, pid=3641, name=sendmail
+process: tgid=3642, cmd=sendmail
+thread: tgid=3642, pid=3642, name=sendmail
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+process: tgid=3643, cmd=sendmail
+thread: tgid=3643, pid=3643, name=sendmail
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+process: tgid=3644, cmd=sendmail
+thread: tgid=3644, pid=3644, name=sendmail
+process: tgid=3645, cmd=sendmail
+thread: tgid=3645, pid=3645, name=sendmail
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+process: tgid=3646, cmd=sendmail
+thread: tgid=3646, pid=3646, name=sendmail
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+process: tgid=3647, cmd=sendmail
+thread: tgid=3647, pid=3647, name=sendmail
+process: tgid=3648, cmd=sendmail
+thread: tgid=3648, pid=3648, name=sendmail
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+process: tgid=3649, cmd=sendmail
+thread: tgid=3649, pid=3649, name=sendmail
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+process: tgid=3650, cmd=sendmail
+thread: tgid=3650, pid=3650, name=sendmail
+process: tgid=3651, cmd=sendmail
+thread: tgid=3651, pid=3651, name=sendmail
+505 SYSCALL_IN: 405170 0 read
+505 SYSCALL_IN: 405170 0 read
+505 SYSCALL_IN: 405170 0 read
+505 SYSCALL_IN: 405170 0 read
+505 SYSCALL_IN: 405170 0 read
+505 SYSCALL_IN: 405170 0 read
+process: tgid=3652, cmd=sendmail
+thread: tgid=3652, pid=3652, name=sendmail
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+process: tgid=3653, cmd=sendmail
+thread: tgid=3653, pid=3653, name=sendmail
+process: tgid=3655, cmd=sendmail
+thread: tgid=3655, pid=3655, name=sendmail
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+process: tgid=3656, cmd=sendmail
+thread: tgid=3656, pid=3656, name=sendmail
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+process: tgid=3657, cmd=sendmail
+thread: tgid=3657, pid=3657, name=sendmail
+process: tgid=3658, cmd=sendmail
+thread: tgid=3658, pid=3658, name=sendmail
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+process: tgid=3659, cmd=sendmail
+thread: tgid=3659, pid=3659, name=sendmail
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+process: tgid=3660, cmd=sendmail
+thread: tgid=3660, pid=3660, name=sendmail
+process: tgid=3661, cmd=sendmail
+thread: tgid=3661, pid=3661, name=sendmail
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+process: tgid=3662, cmd=sendmail
+thread: tgid=3662, pid=3662, name=sendmail
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+process: tgid=3663, cmd=sendmail
+thread: tgid=3663, pid=3663, name=sendmail
+process: tgid=3665, cmd=sendmail
+thread: tgid=3665, pid=3665, name=sendmail
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+process: tgid=3666, cmd=sendmail
+thread: tgid=3666, pid=3666, name=sendmail
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+process: tgid=3667, cmd=sendmail
+thread: tgid=3667, pid=3667, name=sendmail
+process: tgid=3669, cmd=sendmail
+thread: tgid=3669, pid=3669, name=sendmail
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+process: tgid=3670, cmd=sendmail
+thread: tgid=3670, pid=3670, name=sendmail
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+process: tgid=3671, cmd=sendmail
+thread: tgid=3671, pid=3671, name=sendmail
+process: tgid=3672, cmd=sendmail
+thread: tgid=3672, pid=3672, name=sendmail
+505 SYSCALL_IN: 405170 0 read
+505 SYSCALL_IN: 405170 0 read
+505 SYSCALL_IN: 405170 0 read
+505 SYSCALL_IN: 405170 0 read
+505 SYSCALL_IN: 405170 0 read
+505 SYSCALL_IN: 405170 0 read
+process: tgid=3673, cmd=sendmail
+thread: tgid=3673, pid=3673, name=sendmail
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+process: tgid=3674, cmd=sendmail
+thread: tgid=3674, pid=3674, name=sendmail
+process: tgid=3675, cmd=sendmail
+thread: tgid=3675, pid=3675, name=sendmail
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+process: tgid=3676, cmd=sendmail
+thread: tgid=3676, pid=3676, name=sendmail
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+process: tgid=3677, cmd=sendmail
+thread: tgid=3677, pid=3677, name=sendmail
+process: tgid=3678, cmd=sendmail
+thread: tgid=3678, pid=3678, name=sendmail
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+process: tgid=3679, cmd=sendmail
+thread: tgid=3679, pid=3679, name=sendmail
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+process: tgid=3680, cmd=sendmail
+thread: tgid=3680, pid=3680, name=sendmail
+process: tgid=3681, cmd=sendmail
+thread: tgid=3681, pid=3681, name=sendmail
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+process: tgid=3682, cmd=sendmail
+thread: tgid=3682, pid=3682, name=sendmail
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+process: tgid=3683, cmd=sendmail
+thread: tgid=3683, pid=3683, name=sendmail
+process: tgid=3684, cmd=sendmail
+thread: tgid=3684, pid=3684, name=sendmail
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+process: tgid=3685, cmd=sendmail
+thread: tgid=3685, pid=3685, name=sendmail
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+process: tgid=3686, cmd=sendmail
+thread: tgid=3686, pid=3686, name=sendmail
+process: tgid=3687, cmd=sendmail
+thread: tgid=3687, pid=3687, name=sendmail
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+process: tgid=3688, cmd=sendmail
+thread: tgid=3688, pid=3688, name=sendmail
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+process: tgid=3689, cmd=sendmail
+thread: tgid=3689, pid=3689, name=sendmail
+process: tgid=3690, cmd=sendmail
+thread: tgid=3690, pid=3690, name=sendmail
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+506 SYSCALL_IN: 405170 0 read
+process: tgid=3691, cmd=sendmail
+thread: tgid=3691, pid=3691, name=sendmail
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+process: tgid=3692, cmd=sendmail
+thread: tgid=3692, pid=3692, name=sendmail
+504 SYSCALL_IN: 405170 0 read
+504 SYSCALL_IN: 405170 0 read
+504 SYSCALL_IN: 405170 0 read
+504 SYSCALL_IN: 405170 0 read
+504 SYSCALL_IN: 405170 0 read
+504 SYSCALL_IN: 405170 0 read
+process: tgid=3693, cmd=sendmail
+thread: tgid=3693, pid=3693, name=sendmail
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+41 SYSCALL_IN: 405170 0 read
+process: tgid=3694, cmd=sendmail
+thread: tgid=3694, pid=3694, name=sendmail
+#Instruction 120264352
+#Packet 7588895
+Tree Construction Overhead 2.504 seconds
+PT Disassembly Overhead 0.253 seconds
+PT Taint/Traverse Overhead 161.040 seconds
+PT Taint Overhead 0.040 seconds

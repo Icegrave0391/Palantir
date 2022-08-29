@@ -1,0 +1,31 @@
+PT analysis on wget_1-20
+succeed to open ../../AUDIT/audit/watering_hole/auditbeat.-1
+Successfully Connect to Redis db
+plt address range: 403fc0 -> 404e30
+hook address: 4402d2 4402c7 4402fa 4402f8 4402e5 4402b8 4402e0 4402b0 44024a 440276 44023f 44027b 440265 440288 44022b 440260 440220 4401e1 4401d0 4401cb 4401dd 4401c6 4401d8 4401be 4401b9 4401b0 440344 44033f 44033a 440332 440349 440320 440309 440300 440189 440181 44018b 440170 440165 440163 44015e 440159 440150 
+0x42fcd0
+0x4300f0
+0x42ff30
+0x42b030
+tainting scope address: 42fcd0 4300f0 42ff30 42b030 
+Geting all taint summaries
+Initing adj_map_forward
+Initing adj_map
+Initing taint summary in adj_map
+Max #taint summuries in the same context: 1301
+#context: 4037
+process: tgid=12594, cmd=wget
+thread: tgid=12594, pid=12594, name=wget
+#Instruction 1329321333
+#Packet 62175669
+Tree Construction Overhead 6.441 seconds
+PT Disassembly Overhead 1.095 seconds
+PT Taint/Traverse Overhead 10.953 seconds
+PT Taint Overhead 0.087 seconds
+Feedback taint to audit logs
+#Logs10265
+process: 12594
+#audit logs is 10265
+#pt syscalls is 10382
+
+PG Tag Overhead 0.160 seconds
