@@ -3,7 +3,7 @@
 We present PalanTir, a provenance-based system that enhances system observability
 to enable precise and scalable attack investigation.
 
-> PalanTir: Optimizing Attack Provenance with Hardware-enhanced System Observability. CCS'22
++ J. Zeng<sup>\*</sup>, C. Zhang<sup>\*</sup>, and Z. Liang, *PalanTir: Optimizing Attack Provenance with Hardware-enhanced System Observability*. Appeared in the 2022 ACM Conference on Computer and Communication Security (CCS'22). Los Angeles, CA, USA. November 7--11, 2022.
 
 
 ## System Environment
@@ -40,9 +40,10 @@ To know whether your current CPU supports Intel PT, please refer to our [documen
 To facilitate future research, we have released our experimental datasets in the
 following link: https://drive.google.com/drive/folders/1UDWzg5jRd1Ngzl5hHFCV1-Ca2M5Sm_Sr
 
-Our evaluation logs can be found under `log`.
+Our evaluation logs can be found under [log](./log/).
 
 ## Citation
+
 If you want to use our codes and datasets in your research, please cite:
 ```
 @inproceedings{PalanTir22,
