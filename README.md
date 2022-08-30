@@ -35,6 +35,22 @@ To know whether your current CPU supports Intel PT, please refer to our [documen
 
 - [Attack Provenance](docs/provenance_usage.md)
 
-## Reproducibility
-To facilitate future research, we will provide our evaluation data in the
-final version. Our evaluation logs can be found under `log`.
+## Dataset
+
+To facilitate future research, we have released our experimental datasets in the
+following link: https://drive.google.com/drive/folders/1UDWzg5jRd1Ngzl5hHFCV1-Ca2M5Sm_Sr
+
+Our evaluation logs can be found under `log`.
+
+## Citation
+If you want to use our codes and datasets in your research, please cite:
+```
+@inproceedings{PalanTir22,
+  author    = {Jun Zeng and
+               Chuqi Zhang and
+               Zhenkai Liang},
+  title     = {PalanTir: Optimizing Attack Provenance with Hardware-enhanced System Observability},
+  booktitle = {{CCS}},
+  year      = {2022}
+}
+```
