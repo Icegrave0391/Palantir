@@ -5,6 +5,8 @@ to enable precise and scalable attack investigation.
 
 + J. Zeng<sup>\*</sup>, C. Zhang<sup>\*</sup>, and Z. Liang, *PalanTir: Optimizing Attack Provenance with Hardware-enhanced System Observability*. Appeared in the 2022 ACM Conference on Computer and Communication Security (CCS'22). Los Angeles, CA, USA. November 7--11, 2022.
 
+## Appendix
+We refer interested readers to [Appendix](docs/appendix.pdf) for additional information to our paper (e.g., details of the binary operation in our static binary analysis).
 
 ## System Environment
 
