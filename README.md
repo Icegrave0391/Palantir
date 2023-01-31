@@ -1,9 +1,9 @@
-# PalanTir
+# PalanTír
 
-We present PalanTir, a provenance-based system that enhances system observability
+We present PalanTír, a provenance-based system that enhances system observability
 to enable precise and scalable attack investigation.
 
-+ J. Zeng<sup>\*</sup>, C. Zhang<sup>\*</sup>, and Z. Liang, *PalanTir: Optimizing Attack Provenance with Hardware-enhanced System Observability*. Appeared in the 2022 ACM Conference on Computer and Communication Security (CCS'22). Los Angeles, CA, USA. November 7--11, 2022.
++ J. Zeng<sup>\*</sup>, C. Zhang<sup>\*</sup>, and Z. Liang, *PalanTír: Optimizing Attack Provenance with Hardware-enhanced System Observability*. Appeared in the 2022 ACM Conference on Computer and Communication Security (CCS'22). Los Angeles, CA, USA. November 7--11, 2022.
 
 ## Appendix
 We refer interested readers to [Appendix](docs/appendix.pdf) for additional information to our paper (e.g., details of the binary operation in our static binary analysis).
