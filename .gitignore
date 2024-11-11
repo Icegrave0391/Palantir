@@ -5,6 +5,7 @@ venv
 __pycache__
 *.ipynb
 **/dump.rdb
+*.cmd
 
 static-analysis/traces
 static-analysis/tests
@@ -40,6 +41,7 @@ C++
 *.la
 *.a
 *.lib
+!Makefile*
 
 # Executables
 *.exe
